@@ -1,6 +1,3 @@
-> [!IMPORTANT]
-> Copper Launcher has been rebased to MojoLauncher, This repo is currently based on Angel Aura Amethyst, Which is archived now. You can get the updated Copper which is based on MojoLauncher [here](https://github.com/CopperLauncher/Copper-Android).
-
 <h1 align="center">Copper Launcher</h1>
 
 <img src="https://github.com/CopperLauncher/Copper-Android/blob/v3_openjdk/app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="130" height="130" alt="Copper logo">
