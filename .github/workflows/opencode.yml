@@ -22,14 +22,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
           persist-credentials: true
 
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: opencode/qwen3.8-flash
+          model: groq/qwen-2.5-coder-32b
           use_github_token: true
           
