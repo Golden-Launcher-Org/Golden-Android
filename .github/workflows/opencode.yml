@@ -31,6 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: groq/qwen-2.5-coder-32b
+          model: groq/llama-3.3-70b-versatile
           use_github_token: true
           
