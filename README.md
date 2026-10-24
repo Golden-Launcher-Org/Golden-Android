@@ -9,7 +9,7 @@
 ![Android CI](https://github.com/Golden-Launcher-Org/Golden-Android/workflows/Android%20CI/badge.svg)
 [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=FFD700&logo=discord&logoColor=white&label=&style=flat)](https://discord.gg/YOUR_INVITE)
 
-Golden is a gold-themed fork of [Copper Launcher](https://github.com/CopperLauncher/Copper-Android) that lets you play Minecraft: Java Edition on your Android devices with a sleek, customized experience.
+Golden is a gold-themed fork of [Golden Launcher](https://github.com/Golden-Launcher-Org/Golden-Android) that lets you play Minecraft: Java Edition on your Android devices with a sleek, customized experience.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ Golden is a gold-themed fork of [Copper Launcher](https://github.com/CopperLaunc
 
 ## Introduction
 
-* Golden is a Minecraft: Java Edition launcher for Android based on [Copper Launcher](https://github.com/CopperLauncher/Copper-Android), [Amethyst Launcher](https://github.com/AngelAuraMC/Amethyst-Android), [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) and [Boardwalk](https://github.com/zhuowei/Boardwalk).
+* Golden is a Minecraft: Java Edition launcher for Android based on [Golden Launcher](https://github.com/Golden-Launcher-Org/Golden-Android), [Amethyst Launcher](https://github.com/AngelAuraMC/Amethyst-Android), [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) and [Boardwalk](https://github.com/zhuowei/Boardwalk).
 * This launcher supports nearly all Minecraft versions from rd-132211 to 26.x snapshots (including Combat Test versions).
 * Modding via Forge and Fabric are fully supported.
 * Customized with a gold theme and landscape support for an enhanced mobile experience.
@@ -107,7 +107,7 @@ Golden is licensed under [GNU LGPLv3](https://github.com/Golden-Launcher-Org/Gol
 ## Credits & Dependencies
 
 **Upstream Projects:**
-* [Copper Launcher](https://github.com/CopperLauncher/Copper-Android): [LGPL-3.0 license](https://github.com/CopperLauncher/Copper-Android/blob/v3_openjdk/LICENSE)
+* [Golden Launcher](https://github.com/Golden-Launcher-Org/Golden-Android): [LGPL-3.0 license](https://github.com/Golden-Launcher-Org/Golden-Android/blob/main/LICENSE)
 * [Amethyst Launcher](https://github.com/AngelAuraMC/Amethyst-Android/): [LGPL-3.0 license](https://github.com/AngelAuraMC/Amethyst-Android/blob/v3_openjdk/LICENSE)
 * [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher): [GLGPL](https://github.com/PojavLauncherTeam/PojavLauncher/blob/v3_openjdk/LICENSE)
 * [Boardwalk](https://github.com/zhuowei/Boardwalk) (JVM Launcher): Unknown License/[Apache License 2.0](https://github.com/zhuowei/Boardwalk/blob/master/LICENSE) or GNU GPLv2.

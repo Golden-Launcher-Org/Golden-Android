@@ -35,7 +35,7 @@
         android:textColor="?attr/colorTextPrimary" />
 
     <ExpandableListView
-        android:scrollbarThumbVertical="?attr/copperAccent"
+        android:scrollbarThumbVertical="?attr/goldenAccent"
         android:id="@+id/mod_dl_expandable_version_list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
