@@ -30,6 +30,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: opencode/big-pickle
+          model: opencode/qwen3.8-flash
           use_github_token: true
           
