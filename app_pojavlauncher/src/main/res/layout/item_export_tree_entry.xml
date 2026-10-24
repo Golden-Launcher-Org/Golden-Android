@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/padding_heavy"
-        android:buttonTint="?attr/copperAccent" />
+        android:buttonTint="?attr/goldenAccent" />
 
     <TextView
         android:id="@+id/export_entry_name"

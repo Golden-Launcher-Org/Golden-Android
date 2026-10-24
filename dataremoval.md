@@ -1,5 +1,5 @@
-# Remove Angel Aura Copper account data
-Angel Aura Copper uses two types of accounts:
+# Remove Golden Launcher account data
+Golden Launcher uses two types of accounts:
 - Local accounts
 - Microsoft accounts
 <br>

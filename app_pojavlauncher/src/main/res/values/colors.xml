@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Control Buttons (copper glow style - softened, not neon orange anymore) -->
+    <!-- Control Buttons (golden glow style - softened, not neon orange anymore) -->
     <color name="control_button_color">#66C97A2B</color>
     <color name="control_button_pressed_color">#99A85C1A</color>
 
-    <!-- Main Button (hot copper highlight - toned down for consistency) -->
+    <!-- Main Button (hot golden highlight - toned down for consistency) -->
     <color name="minebutton_color">#ff5900</color>
-    <color name="cu_bg_app">#1A0E00</color>
-    <color name="cu_bg_status_bar">#2A1800</color>
-    <color name="cu_bg_bottom_bar">#231200</color>
-    <color name="cu_divider">#3D2200</color>
+    <color name="gb_bg_app">#1A0E00</color>
+    <color name="gb_bg_status_bar">#2A1800</color>
+    <color name="gb_bg_bottom_bar">#231200</color>
+    <color name="gb_divider">#3D2200</color>
 
-    <!-- BACKGROUND SYSTEM (COPPER METAL THEME) -->
-    <!-- Dark copper layered surfaces -->
+    <!-- BACKGROUND SYSTEM (GOLDEN METAL THEME) -->
+    <!-- Dark golden layered surfaces -->
 
     <color name="background_app">#181818</color>
     <color name="background_overlay">#464646</color>      
