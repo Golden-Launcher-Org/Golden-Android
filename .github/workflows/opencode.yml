@@ -31,6 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: groq/llama-3.3-70b
+          model: groq/openai/gpt-oss-120b
           use_github_token: true
           
