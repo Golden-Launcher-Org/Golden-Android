@@ -7,9 +7,9 @@ on:
     types: [created]
 
 permissions:
-  contents: write      # <--- Allows pushing directly to repo files/branches
-  issues: write        # <--- Allows commenting on issues
-  pull-requests: write # <--- Allows creating and editing PRs
+  contents: write
+  issues: write
+  pull-requests: write
   id-token: write
 
 jobs:
@@ -22,14 +22,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0       # <--- Needed for git commits/pushes
-          persist-credentials: true # <--- Keeps permissions active for git push
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # <--- Pass token so it can push
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: openrouter/openrouter/free
+          model: groq/llama-3.3-70b
+          use_github_token: true
           
