@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "nvidia": {
+      "models": {
+        "nemotron-3.5-bolt": {
+          "id": "nvidia/nemotron-3.5-bolt-e4b"
+        }
+      }
+    }
+  }
+}
