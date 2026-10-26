@@ -24,13 +24,16 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
+          
+      - name: Configure Git Identity
+        run: |
+          git config --global user.name "opencode-agent[bot]"
+          git config --global user.email "150381980+opencode-agent[bot]@users.noreply.github.com"
 
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         with:
           model: openrouter/openrouter/free
-          use_github_token: true
           
